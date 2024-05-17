@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: "Roboto", "Helvetica Neue", sans-serif;
+}
+:root {
+  --bg-color: #fff;
+  --main-color: #1e2b75;
+  --secondary-color: #006cff;
+  --text-bold-color: #1e2b75;
+  --main-color-dark: #121a45;
+}
+body {
+  background-color: var(--bg-color);
+}
+
+/*navbar*/
+
+.navbar {
+  background-color: var(--main-color);
+}
+.navbar li {
+  padding: 0 50px;
+}
+
+/*logo*/
+
+.logo {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.entre {
+  display: flex;
+  justify-content: center;
+}
+
+/*carousel*/
+
+.carousel figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 80rem;
+  max-height: 500px;
+}
+
+/*posts*/
+
+.category {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+}
+.category h2 {
+  padding-eight: 100px;
+}
+
+.cars {
+  width: 400px;
+}
+
+.cars img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.card-text:hover {
+  color: var(--secondary-color);
+}
+
+/*Notices*/
+
+.notices img {
+  width: 850px;
+  height: 420px;
+  object-fit: cover;
+}
+
+.categoria {
+  display: flex;
+}
+
+.categoria p {
+  background-color: var(--secondary-color);
+}
+
+.titulos {
+  color: var(--main-color);
+  opacity: 0.8;
+}
+
+.titulos h4:hover {
+  color: #006cff;
+  transition: 0.2;
+  cursor: pointer;
+}
+.titulos h3:hover {
+  color: #006cff;
+  transition: 0.2;
+  cursor: pointer;
+}
+
+/*em alta*/
+
+.emalta h4 {
+  opacity: 0.8;
+  padding-bottom: 5px;
+  border-bottom: 4px solid #1e2b75;
+  color: var(--text-bold-color);
+}
+
+.testo {
+  margin-bottom: 0 !important;
+}
+
+.ctg {
+  font-size: 1rem;
+  color: var(--secondary-color);
+}
+
+/*ranking*/
+
+.ranking h4 {
+  opacity: 0.8;
+  padding-bottom: 5px;
+  border-bottom: 4px solid #1e2b75;
+  color: var(--text-bold-color);
+}
+
+.icon-rank {
+  margin-bottom: 10px;
+}
+
+.name {
+  flex-direction: column;
+}
+
+/*footer*/
+
+.footer {
+  background-color: var(--main-color);
+}
+
+.lista li a {
+  color: gray;
+  padding-top: 5px;
+  text-decoration: none;
+}
+
+.lista li a:hover {
+  color: var(--secondary-color);
+}
+
+.bx {
+  font-size: 45px;
+}
+
+.blue {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--main-color-dark);
+}
+
+/*inter*/
+
+.lh-sm {
+  font-size: 20px;
+}
+
+.fs-5 li a {
+  color: var(--main-color);
+}
+
+.fs-5 li a:hover {
+  color: blue;
+}
+
+/*segunda temporada*/
+
+.fig {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 90rem;
+  max-height: 500px;
+}
+
+.fig img {
+  height: 500px;
+  width: 100rem;
+  object-fit: cover;
+}
+
+/*capa hyml*/
+
+.ffigura {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ffigura img {
+  height: 1000px;
+  width: 88rem;
+  object-fit: none;
+}
+
+/*curiosidades yoishi*/
+
+.figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1400px;
+  height: 600px;
+}
+
+.figure img {
+  max-width: 1200px;
+  height: 600px;
+}
+/*figura*/
+
+.figura {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 90rem;
+  max-height: 500px;
+}
+
+.figura img {
+  height: 500px;
+  object-fit: cover;
+}
+
+.table th {
+  color: #fff;
+  background-color: var(--main-color);
+}
+.list-group-item {
+  border: none;
+}
