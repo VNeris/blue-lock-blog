@@ -255,3 +255,39 @@ body {
 .list-group-item {
   border: none;
 }
+
+/*autor*/
+
+.corpo {
+  margin-top: 50px;
+  background-color: #d9d9d9;
+}
+
+.imagemautor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 600px;
+}
+.imagemautor img {
+  position: relative;
+  width: 15rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid var(--main-color);
+}
+.icones i {
+  width: 70px;
+}
+.icones i:hover {
+  color: var(--secondary-color);
+}
+.titul {
+  border-bottom: 2px solid var(--bs-gray-500);
+}
+
+.flex-1 {
+  flex: 1 1 0%;
+}
