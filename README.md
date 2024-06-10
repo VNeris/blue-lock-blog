@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://vinildo.github.io/blue-lock-blog/img/Blue_Lock_Logo%20(1).png">
+  <img src="https://VNeris.github.io/blue-lock-blog/img/Blue_Lock_Logo%20(1).png">
 </div>
 
 #
